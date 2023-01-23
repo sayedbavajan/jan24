@@ -69,14 +69,6 @@ how to find out older files which are created/modified older than 30 days
 	find /var -type f -mtime +30
 		above command is for find out only files with older than 30 days modification days
 		find /var/log -type f -mtime +30 -exec rm -rf {} \; 
-find older than 90 days data from so and so location and delete those or move those.
-	find /var/log -type f -mtime +90 -exec rm -rf {} \;
-older than 2 days	
-	-mtime +2
-find out older than 10 min modified or created files
-       -mmin
-	find /app3 -mmin -5 
-	finding out files/dir which are created or modified with in 5 min (-mmin -5)
 
 more and less commands
 
@@ -108,9 +100,6 @@ head and tail commands:
 
 
 Head: we can view the first 10 lines of the file
-tail: we can view the last 10 lines of the file
-
-	head filename
 	tail filename
 	
 particular lines
@@ -144,12 +133,16 @@ redirection the file output to another new file:
 		sed -n 8p file2
 
 	sed = string editor
-		using sed we can modify the file content without opening using any of vi command.
-
 how to kill process?
 		kill pid
 		pkill processname
-
+adj
+afadf
+af
+adfa
+f
+adf
+adfaa
 how to check server performance?
 	1. top
 	using top we can verify the server performance, here we can see live data
